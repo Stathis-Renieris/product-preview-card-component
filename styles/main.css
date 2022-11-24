@@ -264,7 +264,7 @@ button span {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url(/images/icon-cart.svg);
+  background-image: url(../images/icon-cart.svg);
   background-repeat: no-repeat;
 }
 
@@ -280,7 +280,7 @@ button span {
   }
 
   .card-image img {
-    content: url(/images/image-product-desktop.jpg);
+    content: url(../images/image-product-desktop.jpg);
   }
 
   .card-info {
