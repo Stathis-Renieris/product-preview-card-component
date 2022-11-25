@@ -66,25 +66,29 @@
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
   <body>
-    <!-----------------|| Header Section ||----------------->
+    <!-- Header Section -->
     <header>
       <div class="fluid-container">
         <h1>Product preview card component</h1>
       </div>
     </header>
-    <!-----------------|| End of Header Section ||----------------->
-    <!-----------------|| Main Section ||----------------->
+    <!-- End of Header Section -->
+    <!-- Main Section -->
     <main>
       <div class="fluid-container section-container">
         <h2>Our Products</h2>
         <div class="cards-container">
           <div class="card">
-            <div class="card-image">
+            <picture class="card-image">
+              <source
+                srcset="/images/image-product-desktop.jpg"
+                media="(min-width: 768px)"
+              />
               <img
                 src="/images/image-product-mobile.jpg"
                 alt="A perfume by Chanel"
               />
-            </div>
+            </picture>
             <div class="card-info">
               <div class="card-text">
                 <p>Perfume</p>
@@ -109,8 +113,8 @@
         </div>
       </div>
     </main>
-    <!-----------------|| End of Main Section ||----------------->
-    <!-----------------|| Footer Section ||----------------->
+    <!-- End of Main Section -->
+    <!-- Footer Section -->
     <footer>
       <div class="fluid-container">
         <div class="attribution">
@@ -133,7 +137,7 @@
         </div>
       </div>
     </footer>
-    <!-----------------|| End of Footer Section ||----------------->
+    <!-- End of Footer Section -->
 
     <script src="./scripts/main.js"></script>
   </body>

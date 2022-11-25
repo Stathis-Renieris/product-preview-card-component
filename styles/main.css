@@ -279,10 +279,6 @@ button span {
     width: 50%;
   }
 
-  .card-image img {
-    content: url(/images/image-product-desktop.jpg);
-  }
-
   .card-info {
     width: 50%;
     justify-content: space-evenly;
